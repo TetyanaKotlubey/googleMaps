@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+a, button
+{
+    transition: all .3s ease-in-out;
+}
+#map {
+    height: 100vh;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
+  #city
+  {
+      position: absolute;
+      top: 10px;
+      left: 220px;
+      z-index: 2;
+      border-radius: 2px;
+      padding: 9px 15px;
+      border-color: #fff;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+  }
+#city [selected]
+{
+    font-weight: 500;
+}   
